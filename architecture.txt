@@ -1,0 +1,11 @@
+digitizer/
+├── docker-compose.yml    !
+├── db/
+│   └── init.sql
+├── data/                  # imagery goes here (git-ignored)
+└── api/
+    ├── Dockerfile
+    ├── requirements.txt
+    └── app/
+        ├── __init__.py
+        └── main.py
